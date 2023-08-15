@@ -13,7 +13,7 @@ let isLogIn = true
 let state;
 
 // Number => 2 to power 53 range of number
-// Bigint 
+// BigInt 
 // String => ""
 // Boolean => true/false
 // Null => standalone value
