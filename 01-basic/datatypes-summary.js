@@ -1,3 +1,4 @@
+/*
 // primitive
 
 // 7 types => String, Number, Booleans, Null, Undefined, symbol, BigInt
@@ -52,3 +53,27 @@ Return type of variables in JavaScript
        Function  =>  function object => object
        Object  =>  object
 */
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive), heap (Non-primitive)
+
+let myYoutubename = 'dgfhm'
+let anothername = myYoutubename;
+anothername = 'dgfdev'
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: 'user@gmail.com',
+    upi: 'user@bl'
+}
+
+let userTwo = userOne;
+
+userTwo.email = 'usertwo@gmail.com'
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
