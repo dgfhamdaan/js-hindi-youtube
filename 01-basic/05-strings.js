@@ -34,7 +34,8 @@ console.log(url.includes('code'));
 console.log(gameName.split('-'));
 
 
-console.log(gameName.small());
+console.log(gameName.bold());
+console.log(gameName.toLowerCase());
 
 
 
