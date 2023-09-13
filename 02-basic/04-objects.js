@@ -1,5 +1,5 @@
 // const tinderUser = Object(); singleton object
-
+/*
 const tinderUser = {} //not singleton object
 
 tinderUser.id = "123Abc"
@@ -14,7 +14,7 @@ const regularUser = {
         userFullName: {
             firstName: 'sam',
             lastName: 'jon'
-        }
+        }  // nested system 
     }
 }
 
@@ -59,3 +59,30 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+*/
+
+const course = {
+    coursename: "js in hindi",
+    courseprice: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor 
+
+const {courseInstructor: Instructor } = course
+// console.log(courseInstructor);
+console.log(Instructor);
+
+// {
+//     "name": "histesh",
+//     "course": "js in hindi",
+//     "price": "free"
+// }                                 // json api call
+
+[
+    {},
+    {},
+    {}
+]
+
