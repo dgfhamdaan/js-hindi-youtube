@@ -36,8 +36,41 @@ const result = addNUmber(3,5);
         console.log("plese enter name");
         return;
     }
-    return `${username} jus logged in`
+    return `${username} just logged in`
 }
 
 // console.log(loginUserMessage("hamdaan"));
-console.log(loginUserMessage("hitesh"));
+// console.log(loginUserMessage("hitesh"));
+
+function calculateCartPrice (val1, val2, ...num) { //rest 
+    return num;
+}
+// ... is called rest or separate
+// console.log(calculateCartPrice(100,200,400,299));
+
+const user = {
+    name: "hamdaan",
+    price: "499"
+
+}
+
+function handleobject (anyobect) {
+    console.log(`user name is ${anyobect.name} user price is ${anyobect.price}`);
+}
+
+// handleobject(user)
+
+handleobject({
+    name: "sam",
+    price: "399"
+})
+
+const newArray = [100,200,300,400];
+
+function returnSecondValue(anyarray) {
+    return anyarray[2]
+}
+
+// console.log(returnSecondValue(newArray));
+console.log(returnSecondValue([100,300,500,600])); //this code both method is same
+
