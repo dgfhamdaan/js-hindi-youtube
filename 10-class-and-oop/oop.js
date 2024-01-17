@@ -34,4 +34,4 @@ const usertwo = new User("dgf", 12, true)
 console.log(userOne.constructor);
 // console.log(usertwo);
 
-// new: to get new instance
+// new: to get new instance 
