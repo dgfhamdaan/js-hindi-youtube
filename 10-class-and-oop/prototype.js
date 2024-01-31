@@ -1,32 +1,33 @@
-// let myName = "hamdaan     "
-// let mychannel = "dgf     "
+// let myName = "hitesh     "
+// let mychannel = "chai     "
 
 // console.log(myName.trueLength);
 
-let myHerors = ["thor","spiderman"];
+
+let myHeros = ["thor", "spiderman"]
+
 
 let heroPower = {
     thor: "hammer",
-    spiderman: "websuing",
+    spiderman: "sling",
 
-    getSpiderPower: function () {
-        console.log(`spidy power is ${this.spiderman}`);
+    getSpiderPower: function(){
+        console.log(`Spidy power is ${this.spiderman}`);
     }
 }
 
-Object.prototype.hamdaan = function(){
-    console.log("hamdaan is present in all object");
+Object.prototype.hitesh = function(){
+    console.log(`hitesh is present in all objects`);
 }
 
-Array.prototype.heyhamdaan = function(){
-    console.log("hello to all");
+Array.prototype.heyHitesh = function(){
+    console.log(`Hitesh says hello`);
 }
 
-
-// heroPower.hamdaan()
-myHerors.hamdaan()
-myHerors.heyhamdaan()
-// heroPower.heyhamdaan()
+// heroPower.hitesh()
+// myHeros.hitesh()
+// myHeros.heyHitesh()
+// heroPower.heyHitesh()
 
 // inheritance
 
@@ -52,8 +53,16 @@ const TASupport = {
 Teacher.__proto__ = User
 
 // modern syntax
-Object.setPrototypeOf(TeachingSupport, Teacher);
+Object.setPrototypeOf(TeachingSupport, Teacher)
 
-const AnotherUserName = "dgfhamdaan    ";
+let anotherUsername = "hamdaan     "
 
-String.pro
+String.prototype.trueLength = function(){
+    console.log(this);
+    console.log(`TruelLenght is ${this.trim().length}`);
+}
+
+anotherUsername.trueLength();
+"dgf".trueLength();
+"iceTea".trueLength();
+
