@@ -5,8 +5,13 @@ class User{
     }
     
     get email(){
-        d
+        return`${this._email.toUpperCase()}//http`;
     }
+
+    set email(value){
+     this._email = value
+    }
+
 
     get password(){  // get is use to get value
         return `${this._password}hamdaan`;
@@ -17,5 +22,5 @@ class User{
     }
 }
 
-const dgf = new User("dgf@gmail.com", "abcd");
-console.log(dgf.password);
+const dgf = new User("dgf@Sample.ai", "abcd");
+console.log(dgf.email);
